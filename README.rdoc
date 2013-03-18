@@ -1,0 +1,4 @@
+== Welcome to Rails 3 app with Devise using RSpec and Cucumber
+
+This app was build following the tutorial link:http://railsapps.github.com/tutorial-rails-devise-rspec-cucumber.html
+Thanks to link:http://railsapps.github.com/
