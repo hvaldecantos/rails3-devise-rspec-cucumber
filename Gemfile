@@ -29,6 +29,13 @@ gem "email_spec", :group => :test
 gem "cucumber-rails", :group => :test, :require => false
 gem "capybara", :group => :test
 
+gem "launchy", ">= 2.1.2", :group => :test
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "figaro", ">= 0.5.3"
+gem "better_errors", ">= 0.3.2", :group => :development
+gem "binding_of_caller", ">= 0.6.8", :group => :development
+
+gem 'devise'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
