@@ -26,6 +26,9 @@ gem "factory_girl_rails", :group => [:development, :test]
 gem "database_cleaner", :group => :test
 gem "email_spec", :group => :test
 
+gem "cucumber-rails", :group => :test, :require => false
+gem "capybara", :group => :test
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

@@ -13,7 +13,7 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
+test: &test
   adapter: postgresql
   encoding: unicode
   host: localhost
@@ -21,3 +21,6 @@ test:
   pool: 5
   username: rails3_devise
   password: 12345
+
+cucumber:
+  <<: *test
